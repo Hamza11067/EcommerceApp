@@ -4,10 +4,11 @@
   "description": "APIs for the ecommerce  mobile app",
   "license": "ISC",
   "author": "Hamza Khalid",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
